@@ -1,4 +1,5 @@
-
+import Home from './components/Homepage/home.jsx'
+import './App.css'
 
 function App() {
  
@@ -8,6 +9,7 @@ function App() {
       <div className='w-screen h-screen bg-red-300'>
         <h1>React app</h1>
       </div>
+      <Home/>
       
     </>
   )
