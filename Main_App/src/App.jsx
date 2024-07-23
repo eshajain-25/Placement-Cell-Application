@@ -1,17 +1,16 @@
 import Home from './components/Homepage/home.jsx'
+import Navbar from './components/navbar/navbar.jsx'
 import './App.css'
 
 function App() {
  
 
   return (
-    <>
-      <div className='w-screen h-screen bg-red-300'>
-        <h1>React app</h1>
-      </div>
+    <div className='overflow-hidden'>
+      {/* <div className='fixed top-0 w-full'><Navbar/></div> */}
       <Home/>
       
-    </>
+    </div>
   )
 }
 

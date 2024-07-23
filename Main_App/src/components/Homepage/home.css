@@ -1,0 +1,48 @@
+/* colors: #141619, #2c2e3a, #050a44, #0a21c0, #b3b4bd */
+
+#main{
+    height: calc(100vh - 4rem);
+}
+
+#left-div{
+    height:100%;
+    width:20vw;
+    /* background: red; */
+}
+#right-div{
+    height:100%;
+    width:20vw;
+    /* background: blue; */
+}
+#middle-div{
+    height: 100%;
+    width:60vw;
+    /* background: green; */
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+#content{
+    height:50%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+#content h2{
+    height:22%;
+    /* padding-top: 1vh; */
+    font-size:5vw;
+    /* background: red; */
+    justify-content:center;
+    
+}
+
+#content h3{
+    font-size: 2vw;
+    height:18%;
+    /* background: blue; */
+}
