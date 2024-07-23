@@ -4,11 +4,12 @@ import './home.css'
 import StudentCard from '../StudentCard/studentCard';
 // name,age,gender,branch,status,dsaScore
 const studentsData = [
-  { name: 'John Doe', age: 15, gender: 'Male', branch: 'CSE', status: 'Placed', dsaScore: 90 },
-  { name: 'Jane Smith', age: 14, gender: 'Male', branch: 'ECE', status: 'Not Placed', dsaScore: 80 },
-  { name: 'Samantha Johnson', age: 16, gender: 'Female', branch: 'CSE', status: 'Placed', dsaScore: 70 },
+  {name: 'John Doe', age: 15, gender: 'Male', branch: 'CSE', status: 'Placed', dsaScore: 90 },
+  {name: 'Jane Smith', age: 14, gender: 'Male', branch: 'ECE', status: 'Not Placed', dsaScore: 80 },
+  {name: 'Samantha Johnson', age: 16, gender: 'Female', branch: 'CSE', status: 'Placed', dsaScore: 70 },
   // Add more student objects here
 ];
+
 
 function Home() {
   return (
@@ -28,8 +29,7 @@ function Home() {
 
         </div>
     </div>
-    <div  className='w-screen h-screen bg-[#050a44] text-white text-xl'>
-        Hello Duniya!!!
+    <div  className='w-screen h-screen bg-[#050a44] text-xl'>
         <StudentCard students={studentsData}/>
     </div>
     </>
