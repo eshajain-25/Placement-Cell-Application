@@ -3,7 +3,7 @@ import Navbar from '../navbar/navbar'
 import './home.css'
 import StudentCard from '../studentCard/studentCard';
 // name,age,gender,branch,status,dsaScore
-import { studentsData } from '../../dataFiles/studentsData';
+import { studentsData } from '../../dataFiles/studentsData.js';
 
 function Home() {
   return (

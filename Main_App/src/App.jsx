@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
-import Home from './components/homepage/home.jsx';
-import Interview from './components/Interview/interview.jsx'; // Assuming you have this component
-import JobPortal from './components/JobPortal/jobPortal.jsx'; // Assuming you have this component
-import Profile from './components/Profile/profile.jsx'; // Assuming you have this component
-import Login from './components/Login/login.jsx'; // Assuming you have this component
+import Home from './components/homePage/home.jsx';
+import Interview from './components/interviewPage/interview.jsx'; // Assuming you have this component
+import JobPortal from './components/jobPortalPage/jobPortal.jsx'; // Assuming you have this component
+import Profile from './components/profilePage/profile.jsx'; // Assuming you have this component
+import Login from './components/loginPage/login.jsx'; // Assuming you have this component
 import Navbar from './components/navbar/navbar.jsx';
 import './App.css';
 
