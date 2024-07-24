@@ -1,6 +1,6 @@
 import React from 'react'
 import './studentCard.css'
-import  {interviews}  from '../../dataFiles/interviewSchedule';
+import { interviews } from '../../dataFiles/interviewSchedule';
 //TODO: Make a different file containing list of interviews
 
 
