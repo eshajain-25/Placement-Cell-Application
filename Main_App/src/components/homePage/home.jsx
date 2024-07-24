@@ -7,9 +7,9 @@ import { studentsData } from '../../dataFiles/studentsData.js';
 
 function Home() {
   return (
-    <>
-    <Navbar/>
-    <div id='main'className='flex mt-16 w-screen h-screen bg-[#f8eded] text-[#0a21c0] text-3xl'>
+    <div className="w-screen bg-[#050a44]">
+   
+    <div id='main'className='flex w-screen h-screen bg-[#f8eded] text-[#0a21c0] text-3xl'>
         <div id="left-div">
 
         </div>
@@ -23,10 +23,10 @@ function Home() {
 
         </div>
     </div>
-    <div  className='w-screen h-screen bg-[#050a44] text-xl'>
+     <div  className='w-screen min-height-screen text-xl'>
         <StudentCard students={studentsData}/>
+     </div>
     </div>
-    </>
   )
 }
 

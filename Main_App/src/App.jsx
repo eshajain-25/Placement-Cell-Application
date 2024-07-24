@@ -1,9 +1,9 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/homePage/home';
-// import Interview from './components/interviewPage/interview.jsx'; // Assuming you have this component
-// import JobPortal from './components/jobPortalPage/jobPortal.jsx'; // Assuming you have this component
-// import Profile from './components/profilePage/profile.jsx'; // Assuming you have this component
+import Interview from './components/interviewPage/interview.jsx'; // Assuming you have this component
+import JobPortal from './components/jobPortalPage/jobPortal.jsx'; // Assuming you have this component
+import Profile from './components/profilePage/profile.jsx'; // Assuming you have this component
 // import Login from './components/loginPage/login.jsx'; // Assuming you have this component
 import Navbar from './components/navbar/navbar';
 import './App.css';
@@ -52,7 +52,16 @@ function App(){
   return(
     <>
       <Navbar />
-      <Home />
+      <div className="container mt-20">
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/interview" element={<Interview/>}></Route>
+          <Route path="/job-portal" element={<JobPortal/>}></Route>
+          <Route path="/profile" element={<Profile/>}></Route>
+
+        </Routes>
+      </div>
+      
     </>
   
   );

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function profile() {
+function Profile() {
   return (
-    <div>profile</div>
+    <div className='w-screen h-screen text-white text-3xl bg-[#b3b4bd]'>Profile</div>
   )
 }
 
-export default profile
+export default Profile

@@ -16,3 +16,12 @@
 #bottomdiv tr:hover {
     background-color: #ddd; /* Hover effect for rows */
 }
+
+#maindiv{
+    height:100%;
+    width:100%;
+}
+
+#interviewTable{
+    /* position:relative; */
+}
