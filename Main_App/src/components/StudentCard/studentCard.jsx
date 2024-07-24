@@ -1,19 +1,14 @@
 import React from 'react'
 import './studentCard.css'
-
+import { interviews } from '../../dataFiles/interviewSchedule';
 //TODO: Make a different file containing list of interviews
-const interviews = [
-    { company: 'Facebook', role: 'Software Engineer', date: '2023-04-01', time: '10:00 AM', result: 'Pending' },
-    { company: 'Google', role: 'Product Manager', date: '2023-04-03', time: '1:00 PM', result: 'Pending' },
-    { company: 'Facebook', role: 'Software Engineer', date: '2023-04-01', time: '10:00 AM', result: 'Pending' },
-    { company: 'Google', role: 'Product Manager', date: '2023-04-03', time: '1:00 PM', result: 'Pending' },
-    // Add more interviews as needed
-  ];
 
-  const Card = ({name,age,gender,branch,status,dsaScore}) => {
+
+  const Card = ({id,name,age,gender,branch,status,dsaScore}) => {
     return (
     <div className="bg-[#F8EDED] shadow-md rounded-lg p-4">
         <div id="upper-div">
+            <h2 className="text-gray-700">ID: {id}</h2>
             <h2 className="text-gray-700 text-xl">Name: {name}</h2>
             <h2 className="text-gray-700">Age: {age}</h2>
             <h2 className="text-gray-700">Gender: {gender}</h2>
